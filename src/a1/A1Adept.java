@@ -26,8 +26,8 @@ public class A1Adept {
 			for (int z = itemAmt; z > 0; z--) {
 				
 			} */
-		System.out.println("Biggest: Ketan Mayer-Patel: (1.00)");
-		System.out.println("Smallest: Ketan Mayer-Patel: (1.00)");
+		System.out.println("Biggest: Ketan Mayer-Patel (1.00)");
+		System.out.println("Smallest: Ketan Mayer-Patel (1.00)");
 		System.out.println("Average: 1.00");
 		} 
 }

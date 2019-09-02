@@ -19,14 +19,13 @@ public class A1Novice {
 			int groceryTypes = scan.nextInt();
 			double itemSums = 0;
 			double itemPrice = 0;
-			double itemTotal = 0;
 			if (groceryTypes <= 1) {
 				int multiples = scan.nextInt();
 				String item = scan.next();
 				double price = scan.nextDouble();
 				itemPrice = (multiples * price);
 				itemSums = itemPrice;
-				System.out.println(init + ". " + lastName + ": " + itemSums);
+				System.out.println(init + ". " + lastName + ": " + String.format("%.2f", itemSums));
 			} else {
 				for (int y = groceryTypes; y > 0; y--) {
 					int multiples = scan.nextInt();
@@ -37,7 +36,7 @@ public class A1Novice {
 					z = itemPrice;
 					itemSums = itemPrice + z;
 				}
-				System.out.println(init + ". " + lastName + ": " + itemSums);
+				System.out.println(init + ". " + lastName + ": " + String.format("%.2f", itemSums));
 				} 
 				
 			
